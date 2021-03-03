@@ -1,0 +1,43 @@
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../img/01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper{
+  background-color: gainsboro;
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+}
+.card-head {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+.card-img {
+  width: 120px;
+  height: 120px;
+  margin-top: calc(-60px);
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  border-radius: 50%;
+}
+.card-name {
+}
+.card-prfession {
+}
+.card-country {
+}
+.content {
+}
+.card-follow {
+}
